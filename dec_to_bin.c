@@ -5,7 +5,7 @@ void dictobin(int u);
 int main(){
     int n;
     scanf("%d",&n);
-    dec(n);
+    dectobin(n);
     return 0 ;
 }
 
