@@ -5,11 +5,11 @@ void dictobin(int u);
 int main(){
     int n;
     scanf("%d",&n);
-    dictobin(n);
+    dec(n);
     return 0 ;
 }
 
-void dictobin(int u){
+void dectobin(int u){
     int t1 = 0 ,t2 = 0;
     int ch[51];
     for (int i = 50 ; i > 0 ; i--){
